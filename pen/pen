@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Elite Pen Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🖊️ Elite Pen Store</h1>
+        <div class="cart">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <section class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338" alt="Pen">
+            <h2>Luxury Fountain Pen</h2>
+            <p>₹499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04" alt="Pen">
+            <h2>Classic Ball Pen</h2>
+            <p>₹199</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04" alt="Pen">
+            <h2>Gel Pen Premium</h2>
+            <p>₹149</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <div id="notification" class="notification">
+        Item added to cart!
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
